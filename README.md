@@ -4,7 +4,7 @@
 
 The nonprofit foundation Alphabet Soup wants a tool to help select the applicants for funding with the best chance of success in their ventures. With the help of machine learning and neural networks, using the features in the charity_data.csv dataset, a binary classifier needs to be created that can predict whether applicants will be successful if funded by Alphabet Soup.
 
-charity_data.csv contains more than 34,000 organizations' information that has received funding from Alphabet Soup over the years. 
+The dataset (charity_data.csv) contains more than 34,000 organizations' information that has received funding from Alphabet Soup over the years. 
 Within this dataset are a number of columns that capture metadata about each organization, such as:
 
 * **EIN** and **NAME**—Identification columns
