@@ -1,0 +1,13 @@
+# Charity Funding Predictor
+
+Deep learning and neural networks were used for this project. The goal is to determine if any applicant will be funded by Alphabet Soup or not. The given dataset (charity_data.csv) has information regarding previously funded 34,000 organizations. 
+
+# Data Processing
+All the instructions regarding data processing were followed. For example, irrelevant columns, such as EIN and NAME were dropped. The remaining columns were used as features for the model. The data was split into train and test data. The target variable used was "IS_SUCCESSFUL" with values of 1 and 0 for yes and no respectively. Appropriate binning was done. Please see the "Charity Funding Predictor.ipynb" file for details. 
+
+# Compile, Train and Evaluate the Model  
+The neural network was used on a model containing three hidden layers. The total number of parameters was 743. The model has an accuracy score of 73% on test data.
+
+# Optimization
+Firstly, I have changed the number of nodes in each hidden layer. However, the accuracy remains around 73% on test data. Secondly, I did not drop the NAME column and evaluate the model's performance on the test dataset. This time the model achieved an accuracy of over 78%. The total numbers of parameters were 3564. Please see the "Charity Funding Predictor Optimization.ipynb" file for details.    
+
